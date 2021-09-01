@@ -4,7 +4,6 @@ var string = prompt("Inserisci una parola");
  // funzione per dividere, invertire e riunire la stringa inserita dall'utente
 function reverseString(string){
     var reversedString = string.split("").reverse().join(""); 
-    console.log(reversedString); 
     return reversedString;
 }
 
